@@ -1,0 +1,20 @@
+.root {
+  width: 100vw;
+  position: fixed;
+  top: -21vh;
+  left: 50vw;
+}
+
+@media(min-width:768px) {
+  .root {
+    top: -44vh;
+    left: 50vw;
+  }
+}
+
+@media(min-width:1440px) {
+  .root {
+    top: -78vh;
+    left: 50vw;
+  }
+}
