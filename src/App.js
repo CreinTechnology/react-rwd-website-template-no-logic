@@ -1,9 +1,7 @@
 import React from 'react'
 
 import Image from './components/Image'
-import Container from './components/Container'
-import Typography from './components/Typography'
-import Button from './components/Button'
+import Navbar from './components/Navbar'
 
 import circles from './images/circles.png'
 
@@ -20,24 +18,8 @@ export const App = () => {
         imageALT={'Colored circles'}
       />
 
-      <Container
-        className={classes.navbarContainer}
-      >
-        <Typography
-          className={classes.headerName}
-        >
-          AGENCY
-          <Container
-            className={classes.circleIcon}
-          />
-        </Typography>
+      <Navbar />
 
-        <Button
-          className={classes.navbar__button}
-          buttonLabel={'Login'}
-        />
-
-      </Container>
     </div>
   )
 }

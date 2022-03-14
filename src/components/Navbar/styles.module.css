@@ -1,0 +1,28 @@
+.root {}
+
+.navbarContainer {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circleIcon {
+  position: absolute;
+  top: 3px;
+  left: 17vw;
+  width: 10px;
+  height: 10px;
+  background-color: #FF6B6B;
+  border-radius: 50%;
+}
+
+.navbar__button {
+  width: 75px;
+  height: 30px;
+  border: 2px solid #FFFFFF;
+  border-radius: 100px;
+  background-color: transparent;
+  color: #ffffff;
+}
