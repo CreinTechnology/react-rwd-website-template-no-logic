@@ -1,3 +1,72 @@
 .app {
   padding: 10px 30px;
 }
+
+@media(min-width:1440px) {
+  .app {
+    padding: 30px 130px 0 178px;
+  }
+}
+
+.textWrapper {
+  max-width: 700px;
+  margin-top: 111px;
+  letter-spacing: 0px;
+  color: #B1AAAA;
+}
+
+.textHeader {
+  letter-spacing: -0.53px;
+  color: #1E1C24;
+  font-size: 40px;
+}
+
+.textHeader__bold {
+  font-weight: bold;
+}
+
+.textParagraph {
+  margin-top: 10px;
+  max-width: 616px;
+}
+
+.formField {
+  width: 75%;
+  height: 40px;
+  border: 2px solid #EBEBEB;
+  border-radius: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+
+.formButton {
+  width: 75%;
+  height: 50px;
+  background: #FD5353 0% 0% no-repeat padding-box;
+  box-shadow: 0px 30px 50px #ff535357;
+  border-radius: 100px;
+  outline: none;
+  box-sizing: border-box;
+  color: white;
+  font-size: 17px;
+  border: none;
+}
+
+@media(min-width: 1440px) {
+  .textHeader {
+    font-size: 75px;
+  }
+
+  .formField {
+    width: 397px;
+    height: 77px;
+    margin-right: 40px;
+  }
+
+  .formButton {
+    width: 230px;
+    height: 77px;
+  }
+}

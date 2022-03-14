@@ -2,11 +2,12 @@
 
 .navbarContainer {
   position: relative;
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 
 .circleIcon {
   position: absolute;
@@ -25,4 +26,25 @@
   border-radius: 100px;
   background-color: transparent;
   color: #ffffff;
+}
+
+@media(min-width:1440px) {
+  .headerName {
+    font-size: 30px;
+  }
+
+  .circleIcon {
+    position: fixed;
+    top: 56px;
+    left: 303px;
+    width: 29px;
+    height: 29px;
+  }
+
+  .navbar__button {
+    width: 147px;
+    height: 58px;
+    font-size: 20px;
+  }
+
 }

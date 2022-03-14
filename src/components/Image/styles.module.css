@@ -3,6 +3,7 @@
   position: fixed;
   top: -21vh;
   left: 50vw;
+  z-index: -1;
 }
 
 @media(min-width:768px) {
@@ -15,6 +16,6 @@
 @media(min-width:1440px) {
   .root {
     top: -78vh;
-    left: 50vw;
+    left: 50%;
   }
 }
