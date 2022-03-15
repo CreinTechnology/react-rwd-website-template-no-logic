@@ -1,6 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import Container from '../Container'
+import Typography from '../Typography'
+import Paragraph from '../Paragraph'
 import Image from '../Image'
 
 import greyCircles1 from '../../images/greyCircles1.png'
@@ -30,6 +33,39 @@ export const WorkFlow = (props) => {
         imageSRC={greyCircles2}
         imageALT={'Grey circles background'}
       />
+
+      <Container
+        className={classes.workFlowContainer}
+      >
+        <Container
+          className={classes.textContainer}
+        >
+          <Typography
+            className={classes.text}
+          >
+            Seamless Team Workflow {`${'&'}`} Efficient Task Management
+          </Typography>
+          <Paragraph
+            className={classes.paragraph}
+          >
+            Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines.
+          </Paragraph>
+
+          <Typography
+            className={classes.learnText}
+          >
+            LEARN MORE
+            <Typography>
+
+            </Typography>
+          </Typography>
+        </Container>
+
+        <Container
+          className={classes.imageContainer}
+        >
+        </Container>
+      </Container>
 
     </div>
   )
