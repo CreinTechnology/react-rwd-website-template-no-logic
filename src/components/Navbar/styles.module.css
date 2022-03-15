@@ -34,9 +34,9 @@
   }
 
   .circleIcon {
-    position: fixed;
-    top: 56px;
-    left: 303px;
+    position: absolute;
+    top: 0px;
+    left: 120px;
     width: 29px;
     height: 29px;
   }
