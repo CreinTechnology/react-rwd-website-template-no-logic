@@ -1,5 +1,11 @@
 .root {}
 
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
 .textWrapper {
   max-width: 700px;
   margin-top: 111px;
@@ -46,16 +52,11 @@
   border: none;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-}
-
 .chartWrapper {
   margin-top: 50px;
   position: relative;
   z-index: 9;
+  height: 430px;
 }
 
 .chart1 {

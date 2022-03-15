@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.iconWrapper {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.iconSVG {
+  margin-bottom: 15px;
+  width: 75px;
+}
+
+@media (min-width: 1024px) {
+  .root {
+    width: 50%;
+    margin-top: 40px;
+  }
+
+  .iconSVG{
+    width: 150px;
+  }
+}

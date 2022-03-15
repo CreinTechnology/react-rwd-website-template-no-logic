@@ -19,9 +19,7 @@ export const App = () => {
         imageSRC={circles}
         imageALT={'Colored circles'}
       />
-
       <Navbar />
-
       <Hero />
 
     </div>

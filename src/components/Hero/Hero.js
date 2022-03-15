@@ -7,6 +7,7 @@ import Paragraph from '../Paragraph'
 import TextField from '../TextField'
 import Button from '../Button'
 import Image from '../Image'
+import IconsContainer from '../IconsContainer'
 
 import usersChart1 from '../../images/usersChart1.png'
 import usersChart2 from '../../images/usersChart2.png'
@@ -92,6 +93,8 @@ export const Hero = (props) => {
         </Container>
 
       </Container>
+
+      <IconsContainer />
 
     </div>
   )
