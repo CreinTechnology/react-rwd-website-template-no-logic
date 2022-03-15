@@ -3,6 +3,7 @@ import React from 'react'
 import Image from './components/Image'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Offer from './components/Offer'
 
 import circles from './images/circles.png'
 
@@ -13,7 +14,6 @@ export const App = () => {
     <div
       className={classes.app}
     >
-
       <Image
         className={classes.image}
         imageSRC={circles}
@@ -21,6 +21,8 @@ export const App = () => {
       />
       <Navbar />
       <Hero />
+
+      <Offer />
 
     </div>
   )

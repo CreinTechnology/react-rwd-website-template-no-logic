@@ -1,0 +1,227 @@
+.root {
+  position: relative;
+  margin-top: 50px;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconRedBar {
+  position: absolute;
+  top: -50px;
+  left: -52%;
+  width: 70%;
+  z-index: 1;
+}
+
+.iconBlackCircle {
+  position: absolute;
+  top: 87px;
+  left: -50%;
+  width: 60%;
+  z-index: 1;
+}
+
+.chartContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 399px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0px 100px 99px #1f485d33;
+}
+
+.rankProjectWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textWrapper {
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 5px;
+  width: 159px;
+}
+
+.textStar {
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+.starContainer {
+  width: 52px;
+  height: 52px;
+  background-color: #6271D2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.starIcon {
+  width: 26px;
+  height: 26px;
+}
+
+.chevronIconLeft {
+  width: 40%;
+  height: 40%;
+  fill: white;
+  transform: translate(4px, 0);
+}
+
+.chevronIconRight {
+  width: 40%;
+  height: 40%;
+  fill: white;
+  transform: translate(-4px, 0);
+}
+
+.text {
+  font-size: 21px;
+}
+
+.text__green {
+  color: #10C172;
+}
+
+.hr {
+  border: 1px solid #E6EBF0;
+  display: flex;
+  margin-top: 34px;
+  width: 80%;
+}
+
+.topWrapper {}
+
+.topUsersContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.topCatContainer {
+  padding-left: 20px;
+  margin-bottom: 22px;
+}
+
+.topUsersText {
+  color: #42505C;
+  font-size: 20px;
+}
+
+.topCatText {
+  color: #79828B;
+  font-size: 21px;
+}
+
+.topButtonContainer {
+  padding-left: 20px;
+}
+
+.topButton {
+  color: #8D99A4;
+  background-color: rgba(121, 130, 139, 0.1);
+  height: 51px;
+  border-radius: 16px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  min-width: 101px;
+  margin-right: 19px;
+}
+
+.textContainer {
+  margin-top: 50px;
+}
+
+.spanText {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1E1C24;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: #B1AAAA;
+  margin: 40px 0;
+}
+
+.textSpan {
+  font-size: 18px;
+  color: #1E1C24;
+  font-weight: bold;
+}
+
+.textImage {
+  margin-left: 20px;
+  width: 26px;
+  height: 12px;
+}
+
+
+@media(min-width: 1920px) {
+  .iconRedBar {
+    top: -40vh;
+    left: -55%;
+    z-index: -1;
+  }
+
+  .iconBlackCircle {
+    width: 1320px;
+    height: 1320px;
+    top: 50%;
+    left: -67%;
+    z-index: -1;
+  }
+
+  .chartContainer {
+    width: 558px;
+    height: 399px;
+  }
+
+  .chartWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 63px;
+  }
+
+  .topUsersText {
+    margin-left: 264px;
+  }
+
+  .topCatText {
+    margin-left: 39px;
+  }
+
+  .topContainer {
+    margin-left: 39px;
+    margin-top: 21.5px;
+  }
+
+  .topButton {
+    font-size: 25px;
+  }
+
+  .flexWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .textContainer {
+    width: 552px;
+    margin: 0 auto;
+  }
+}

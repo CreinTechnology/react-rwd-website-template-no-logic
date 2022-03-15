@@ -22,7 +22,18 @@
     margin-top: 40px;
   }
 
-  .iconSVG{
+  .iconSVG {
     width: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .root {
+    width: 50%;
+    margin-top: 200px;
+  }
+
+  .iconWrapper {
+    margin-bottom: 85px;
   }
 }
