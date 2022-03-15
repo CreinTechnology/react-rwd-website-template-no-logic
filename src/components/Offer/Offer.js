@@ -6,10 +6,15 @@ import Container from '../Container'
 import Typography from '../Typography'
 import Button from '../Button'
 import Paragraph from '../Paragraph'
+import RankingUserContainer from '../RankingUserContainer'
 
 import redBar from '../../images/redBar.png'
 import blackCircle from '../../images/blackCircle.png'
 import arrowRight from '../../images/arrowRight.png'
+import user1 from '../../images/user1.jpeg'
+import user2 from '../../images/user2.jpeg'
+import user3 from '../../images/user3.jpeg'
+import user4 from '../../images/user4.jpeg'
 
 import classes from './styles.module.css'
 
@@ -220,7 +225,76 @@ export const Offer = (props) => {
               />
             </Container>
 
+            <Container
+              className={classes.rankingsContainer}
+            >
+              <Container
+                className={classes.rankings__textContainer}
+              >
+                <Container
+                  className={classes.rankings__textLeft}
+                >
+                  <Typography
+                    className={classes.rankings__text}
+                  >
+                    RANKINGS
+                  </Typography>
+                </Container>
+
+                <Container
+                  className={classes.rankings__textRight}
+                >
+                  <Typography
+                    className={classes.rankings__textLeft}
+                  >
+                    This month
+                  </Typography>
+                  <Typography
+                    className={classes.rankings__textRight}
+                  >
+                    All time
+                  </Typography>
+                </Container>
+              </Container>
+
+              <RankingUserContainer
+                listNumber={'1.'}
+                colorVariant={'light_blue'}
+                imageSRC={user1}
+                imageALT={'Random user no.1'}
+                userName={'Torres John'}
+                userCash={'10938.34'}
+              />
+
+              <RankingUserContainer
+                listNumber={'2.'}
+                colorVariant={'dark_yellow'}
+                imageSRC={user2}
+                imageALT={'Random user no.2'}
+                userName={'Joen Belu'}
+                userCash={'9087.10'}
+              />
+              <RankingUserContainer
+                listNumber={'3.'}
+                colorVariant={'light_orange'}
+                imageSRC={user3}
+                imageALT={'Random user no.3'}
+                userName={'Evanesence Kin'}
+                userCash={'6789.90'}
+              />
+              <RankingUserContainer
+                listNumber={'4.'}
+                colorVariant={'light_pink'}
+                imageSRC={user4}
+                imageALT={'Random user no.4'}
+                userName={'Michael Ugyt'}
+                userCash={'6009.00'}
+              />
+
+            </Container>
+
           </Container>
+
         </Container>
 
         <Container
