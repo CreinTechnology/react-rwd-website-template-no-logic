@@ -4,6 +4,7 @@ import Image from './components/Image'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Offer from './components/Offer'
+import WorkFlow from './components/WorkFlow'
 
 import circles from './images/circles.png'
 
@@ -23,6 +24,8 @@ export const App = () => {
       <Hero />
 
       <Offer />
+
+      <WorkFlow />
 
     </div>
   )

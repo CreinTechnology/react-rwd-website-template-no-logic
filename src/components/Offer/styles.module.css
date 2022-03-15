@@ -171,15 +171,16 @@
 
 @media(min-width: 1920px) {
   .iconRedBar {
-    top: -40vh;
+    top: -65vh;
     left: -55%;
+    width: 80%;
     z-index: -1;
   }
 
   .iconBlackCircle {
     width: 1320px;
     height: 1320px;
-    top: 50%;
+    top: -7%;
     left: -67%;
     z-index: -1;
   }

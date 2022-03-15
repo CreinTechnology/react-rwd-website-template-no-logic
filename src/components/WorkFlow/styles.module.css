@@ -1,0 +1,20 @@
+.root {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+}
+
+@media (min-width: 1920px) {
+
+  .image {
+    position: absolute;
+    top: 200px;
+    left: 55%;
+    width: 1173px;
+  }
+}
