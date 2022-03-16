@@ -7,16 +7,219 @@
   top: 0;
   left: 50%;
   width: 100%;
+  z-index: -1;
+}
+
+.workFlowContainer {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.textContainer {
+  width: 80%;
+}
+
+.text {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.paragraph {
+  font-size: 18px;
+  color: #B1AAAA;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.learnText {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.arrowImage {
+  width: 26px;
+  height: 12px;
+  margin-left: 20px;
+}
+
+.positionContainer {
+  margin-top: 20px;
+}
+
+.slackChart {
+  min-height: 296px;
+  box-shadow: 0px 100px 99px #1F485D33;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.slackChart__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 16px 0;
+  text-align: center;
+}
+
+.slackChart__header {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1E1C24;
+}
+
+.slackChart__paragraph {
+  font-size: 13px;
+  color: #1E1C24;
+  opacity: 0.75;
+}
+
+.slackChart__buttonCtn {
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.button {
+  width: 125px;
+  height: 44px;
+  border: 1px solid #CBCBCB;
+  font-weight: 600;
+  letter-spacing: 1.75px;
+  outline: none;
+  border-radius: 6px;
+}
+
+.userChart__button {
+  width: 81px;
+  height: 32px;
+  border-radius: 16px;
+  outline: none;
+  border: none;
+}
+
+.button_violet {
+  color: #6271D2;
+  background-color: rgba(98, 113, 210, 0.1);
+  margin-right: 12px;
+}
+
+.button_beige {
+  color: #D28E62;
+  background-color: rgba(210, 134, 98, 0.1);
+}
+
+.button_white {
+  background-color: white;
+}
+
+.button_red {
+  background-color: #FD5353;
+  color: white;
+}
+
+.userChartBottom {
+  min-height: 279px;
+  box-shadow: 0px 100px 99px #1F485D33;
+  border-radius: 8px;
+  padding: 26px 16px;
+  margin-top: 40px;
+  background-color: white;
+}
+
+.userChart__container {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.justify__left {
+  justify-content: flex-start;
+}
+
+.justify__center {
+  justify-content: center;
+}
+
+.space {
+  justify-content: space-between;
+}
+
+.userChart__text {
+  font-size: 16px;
+  color: #42505C;
+  font-weight: 600;
+}
+
+.userChart__image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.userChart__hr {
+  border: 0.8px solid #1F485D33;
+  opacity: 0.75;
+  margin: 20px;
+}
+
+.padding_top {
+  padding-top: 0;
 }
 
 @media (min-width: 1920px) {
 
   .image {
     position: absolute;
-    top: 200px;
-    left: 55%;
+    top: -400px;
+    left: 50%;
     width: 1173px;
+    transform: scale(1.2);
   }
 
-  .workFlowContainer{}
+  .workFlowContainer {
+    margin-top: 50vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .textContainer {
+    width: 552px;
+  }
+
+  .workFlowContainer {
+    justify-content: space-evenly;
+  }
+
+  .slackChart {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 343px;
+  }
+
+  .button {
+    width: 150px;
+    cursor: pointer;
+  }
+
+  .positionContainer {
+    position: relative;
+  }
+
+  .userChart {
+    width: 343px;
+  }
+
+  .userChartBottom {
+    position: absolute;
+    top: 100px;
+    left: -300px;
+    z-index: -1;
+  }
 }
