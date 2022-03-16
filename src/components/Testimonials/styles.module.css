@@ -1,5 +1,6 @@
 .root {
   margin: 100px auto;
+  padding: 0 15px;
 }
 
 .testimonials_ctn_header {
@@ -11,6 +12,26 @@
 
 .testimonials_container {
   flex-direction: column;
+}
+
+@media(min-width: 768px) {
+  .root {
+    margin: 70vh auto;
+  }
+
+  .testimonials_container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: unset;
+  }
+}
+
+@media(min-width: 1024px) {
+  .testimonials_container {
+    flex-wrap: unset;
+    flex-direction: row;
+  }
 }
 
 @media(min-width: 1440px) {
@@ -27,5 +48,11 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+  }
+}
+
+@media(min-width: 1920px) {
+  .root {
+    margin: 350px auto;
   }
 }

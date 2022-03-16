@@ -1,6 +1,7 @@
 .root {
   position: relative;
   margin-top: 50px;
+  padding: 0 15px;
 }
 
 .flexWrapper {
@@ -187,6 +188,47 @@
 }
 
 
+@media(min-width: 768px) {
+  .chartContainer {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+
+@media(min-width: 1024px) {
+  .chartContainer {
+    margin: 0 auto;
+    width: 558px;
+  }
+
+  .chartWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .topUsersText {
+    margin-left: 260px;
+  }
+
+  .rankingsContainer {
+    position: absolute;
+    background: white;
+    width: 350px;
+    min-height: 420px;
+    top: 30px;
+    left: 300px;
+    box-shadow: 0px 100px 99px #1f485d33;
+    border: none;
+  }
+
+  .textContainer{
+    margin-top: 300px;
+    padding: 15px
+  }
+}
+
 @media(min-width: 1920px) {
   .iconRedBar {
     top: -65vh;
@@ -205,7 +247,7 @@
 
   .chartContainer {
     width: 558px;
-    height: 399px;
+    min-height: 449px;
   }
 
   .chartWrapper {

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  margin-top: 70vh;
 }
 
 .iconWrapper {
@@ -16,10 +17,15 @@
   width: 75px;
 }
 
+@media (min-width: 768px) {
+  .root {
+    margin-top: 10vh;
+  }
+}
+
 @media (min-width: 1024px) {
   .root {
-    width: 50%;
-    margin-top: 40px;
+    margin-top: 30vh;
   }
 
   .iconSVG {
@@ -27,10 +33,22 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .root {
+    margin-top: 10vh;
+    width: 75%;
+
+  }
+
+  .iconWrapper {
+    margin-bottom: 85px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .root {
+    margin-top: 25vh;
     width: 50%;
-    margin-top: 100px;
   }
 
   .iconWrapper {

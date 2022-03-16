@@ -1,4 +1,6 @@
-.root {}
+.root {
+  padding: 0 15px;
+}
 
 .wrapper {
   display: flex;
@@ -7,7 +9,6 @@
 }
 
 .textWrapper {
-  max-width: 700px;
   margin-top: 111px;
   letter-spacing: 0px;
   color: #B1AAAA;
@@ -94,6 +95,13 @@
   left: -60px;
   z-index: -4;
 }
+
+@media(min-width: 768px) {
+  .textWrapper{
+    width: 50%;
+  }
+}
+
 
 @media(min-width: 1440px) {
 

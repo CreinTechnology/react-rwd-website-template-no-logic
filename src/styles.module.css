@@ -6,25 +6,75 @@
 }
 
 .image {
-  width: 100vw;
+  max-width: 100vw;
   position: absolute;
   top: -21vh;
   left: 50vw;
   z-index: -1;
 }
 
-.image__redBar {
+.chart {
+  position: absolute;
+}
+
+.chart1 {
+  width: 300px;
+  height: 300px;
+  top: 90vh;
+  left: 10vw;
+  z-index: 4;
+}
+
+.chart2 {
+  width: 300;
+  height: 200px;
+  top: 105vh;
+  left: -10vw;
+  z-index: 3;
+}
+
+.chart3 {
+  width: 300px;
+  height: 300px;
+  top: 110vh;
+  left: 30vw;
+  z-index: 2;
+}
+
+.chart4 {
+  width: 300px;
+  height: 300px;
+  top: 115vh;
+  left: -5vw;
+  z-index: 1;
+}
+
+.redBar_left {
+  position: absolute;
+  top: 1300px;
+  left: -150px;
+  width: 80%;
+}
+
+.blackCircle_left {
+  position: absolute;
+  top: 1440px;
+  left: -210px;
+  width: 80%;
+}
+
+.redBar_right {
   transform: rotate(90deg);
   position: absolute;
-  top: 4000px;
+  top: 5300px;
   left: 250px;
   width: 80%;
   z-index: -1;
 }
 
-.image__blackCircle {
+.blackCircle_right {
   position: absolute;
-  top: 4156px;
+  top: 5456px;
   left: 255px;
   width: 100%;
   z-index: -1;
@@ -32,9 +82,122 @@
 
 @media(min-width:768px) {
   .image {
-    top: -44vh;
+    top: -25vh;
     left: 50vw;
   }
+
+  .chart1 {
+    width: 300px;
+    height: 300px;
+    top: 20vh;
+    left: 58vw;
+    z-index: 4;
+  }
+
+  .chart2 {
+    width: 450px;
+    height: 300px;
+    top: 26vh;
+    left: 45vw;
+    z-index: 3;
+  }
+
+  .chart3 {
+    width: 300px;
+    height: 300px;
+    top: 40vh;
+    left: 65vw;
+    z-index: 2;
+  }
+
+  .chart4 {
+    width: 300px;
+    height: 300px;
+    top: 38vh;
+    left: 48vw;
+    z-index: 1;
+  }
+
+  .redBar_left {
+    top: 600px;
+    left: -400px;
+  }
+
+  .blackCircle_left {
+    top: 990px;
+    left: -420px;
+  }
+
+  .redBar_right {
+    top: 3900px;
+    left: 450px;
+  }
+
+  .blackCircle_right {
+    top: 4156px;
+    left: 520px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .image {
+    top: -30vh;
+    left: 50vw;
+  }
+
+  .chart1 {
+    width: 300px;
+    height: 300px;
+    top: 10vh;
+    left: 65vw;
+    z-index: 4;
+  }
+
+  .chart2 {
+    width: 490px;
+    height: 300px;
+    top: 19vh;
+    left: 55vw;
+    z-index: 3;
+  }
+
+  .chart3 {
+    width: 300px;
+    height: 300px;
+    top: 33vh;
+    left: 72vw;
+    z-index: 2;
+  }
+
+  .chart4 {
+    width: 300px;
+    height: 300px;
+    top: 33vh;
+    left: 60vw;
+    z-index: 1;
+  }
+
+  .redBar_left {
+    top: 600px;
+    left: -550px;
+  }
+
+  .blackCircle_left {
+    top: 1130px;
+    left: -560px;
+  }
+
+  .redBar_right {
+    top: 2900px;
+    left: 700px;
+  }
+
+  .blackCircle_right {
+    top: 3400px;
+    left: 800px;
+    width: 70%;
+  }
+
 }
 
 @media(min-width: 1440px) {
@@ -43,18 +206,125 @@
   }
 
   .image {
-    top: -846.0908203125px;
-    left: 960px;
+    top: -500px;
+    left: 725px;
   }
 
-  .image__redBar {
+  .chart1 {
+    width: 426px;
+    height: 426px;
+    top: 15vh;
+    left: 60vw;
+    z-index: 4;
+    box-sizing: border-box;
+  }
+
+  .chart2 {
+    width: 699px;
+    height: 360px;
+    top: 30vh;
+    left: 50vw;
+    z-index: 3;
+  }
+
+  .chart3 {
+    width: 421px;
+    height: 442px;
+    top: 45vh;
+    left: 67vw;
+    z-index: 2;
+  }
+
+  .chart4 {
+    width: 535px;
+    height: 441px;
+    top: 45vh;
+    left: 48vw;
+    z-index: 1;
+  }
+
+  .redBar_left {
+    top: 800px;
+    left: -750px;
+  }
+
+  .blackCircle_left {
+    top: 1530px;
+    left: -780px;
+  }
+
+  .redBar_right {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 2950px;
+    left: 1029px;
+  }
+
+  .blackCircle_right {
+    position: absolute;
+    top: 3734px;
+    left: 1189px;
+    width: 55%;
+  }
+}
+
+@media(min-width: 1920px) {
+  .image {
+    top: -60vh;
+    left: 50vw;
+  }
+
+  .chart1 {
+    width: 426px;
+    height: 426px;
+    top: 15vh;
+    left: 60vw;
+    z-index: 4;
+    box-sizing: border-box;
+  }
+
+  .chart2 {
+    width: 699px;
+    height: 360px;
+    top: 30vh;
+    left: 50vw;
+    z-index: 3;
+  }
+
+  .chart3 {
+    width: 421px;
+    height: 442px;
+    top: 45vh;
+    left: 67vw;
+    z-index: 2;
+  }
+
+  .chart4 {
+    width: 535px;
+    height: 441px;
+    top: 45vh;
+    left: 48vw;
+    z-index: 1;
+  }
+
+  .redBar_left {
+    top: 600px;
+    left: -880px;
+  }
+
+  .blackCircle_left {
+    top: 1450px;
+    left: -1050px;
+  }
+
+  .redBar_right {
     transform: rotate(90deg);
     position: absolute;
     top: 2366px;
     left: 1329px;
   }
 
-  .image__blackCircle {
+  .blackCircle_right {
     position: absolute;
     top: 3364px;
     left: 1609px;

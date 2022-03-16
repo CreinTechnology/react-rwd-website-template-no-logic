@@ -1,15 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import Image from '../Image'
 import Container from '../Container'
 import Typography from '../Typography'
 import Button from '../Button'
 import Paragraph from '../Paragraph'
 import RankingUserContainer from '../RankingUserContainer'
 
-import redBar from '../../images/redBar.png'
-import blackCircle from '../../images/blackCircle.png'
 import arrowRight from '../../images/arrowRight.png'
 import user1 from '../../images/user1.jpeg'
 import user2 from '../../images/user2.jpeg'
@@ -29,18 +26,6 @@ export const Offer = (props) => {
       className={`${classes.root}${className ? ` ${className}` : ''}`}
       {...otherProps}
     >
-
-      <Image
-        className={classes.iconRedBar}
-        imageSRC={redBar}
-        imageALT={'Red bar'}
-      />
-      <Image
-        className={classes.iconBlackCircle}
-        imageSRC={blackCircle}
-        imageALT={'Black circle'}
-      />
-
       <Container
         className={classes.flexWrapper}
       >

@@ -1,5 +1,6 @@
 .root {
   position: relative;
+  padding: 0 15px;
 }
 
 .image {
@@ -170,6 +171,41 @@
 
 .padding_top {
   padding-top: 0;
+}
+
+@media (min-width: 768px) {
+  .positionContainer {
+    position: relative;
+  }
+
+  .slackChart {
+    position: absolute;
+    top: 0;
+    left: 40vw;
+    width: 343px;
+    z-index: 1;
+  }
+
+  .userChartBottom {
+    position: absolute;
+    top: 18vh;
+    left: 10vw;
+    width: 345px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .positionContainer {
+    position: relative;
+    display: block;
+  }
+}
+
+@media (min-width: 1440px) {
+  .userChartBottom {
+    left: 25vw;
+  }
 }
 
 @media (min-width: 1920px) {

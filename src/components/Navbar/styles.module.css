@@ -28,6 +28,12 @@
   color: #ffffff;
 }
 
+@media(min-width: 768px){
+  .circleIcon {
+    left: 64px;
+  }
+}
+
 @media(min-width:1440px) {
   .headerName {
     font-size: 30px;
