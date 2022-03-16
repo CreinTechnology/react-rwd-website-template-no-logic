@@ -13,6 +13,23 @@
   z-index: -1;
 }
 
+.image__redBar {
+  transform: rotate(90deg);
+  position: absolute;
+  top: 4000px;
+  left: 250px;
+  width: 80%;
+  z-index: -1;
+}
+
+.image__blackCircle {
+  position: absolute;
+  top: 4156px;
+  left: 255px;
+  width: 100%;
+  z-index: -1;
+}
+
 @media(min-width:768px) {
   .image {
     top: -44vh;
@@ -26,7 +43,21 @@
   }
 
   .image {
-    top: -78vh;
-    left: 50%;
+    top: -846.0908203125px;
+    left: 960px;
+  }
+
+  .image__redBar {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 2366px;
+    left: 1329px;
+  }
+
+  .image__blackCircle {
+    position: absolute;
+    top: 3364px;
+    left: 1609px;
+    width: 55%;
   }
 }
