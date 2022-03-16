@@ -1,8 +1,11 @@
 .app {
   position: relative;
   overflow-x: hidden;
-  padding: 10px 30px;
   height: 100vh;
+}
+
+.wrapper {
+  padding: 10px 30px;
 }
 
 .image {
@@ -78,6 +81,13 @@
   left: 255px;
   width: 100%;
   z-index: -1;
+}
+
+.footer {
+  clip-path: ellipse(90% 70% at 50% 100%);
+  background-color: #FF6B6B;
+  height: 400px;
+  width: 100%;
 }
 
 @media(min-width:768px) {
@@ -201,7 +211,7 @@
 }
 
 @media(min-width: 1440px) {
-  .app {
+  .wrapper {
     padding: 30px 130px 0 178px;
   }
 
