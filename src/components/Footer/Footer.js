@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React from 'react'
 import PropTypes from 'prop-types'
 
@@ -68,29 +69,40 @@ export const Footer = (props) => {
           <Container
             className={classes.checkboxContainer}
           >
-            <input
-              className={classes.checkbox}
-              type={'checkbox'}
-              name={'accept-all'}
-            />
-            <label htmlFor={'accept-all'}>
-              <Typography
-                className={classes.checkboxText}
+            <Container>
+              <input
+                className={classes.checkbox}
+                type={'checkbox'}
+                name={'accept-all'}
+                id={'accept-all'}
+              />
+            </Container>
+            <Typography
+              className={classes.checkboxText}
+            >
+              <label
+                for={'accept-all'}
+                className={classes.label}
               >
                 Accept all
-              </Typography>
-            </label>
+              </label>
+            </Typography>
           </Container>
 
           <Container
             className={classes.checkboxContainer}
           >
-            <input
-              className={classes.checkbox}
-              type={'checkbox'}
-              name={'agree-data'}
-            />
-            <label htmlFor={'agree-data'}>
+            <Container>
+              <input
+                className={classes.checkbox}
+                type={'checkbox'}
+                id={'agree-data'}
+              />
+            </Container>
+            <label
+              htmlFor={'agree-data'}
+              className={classes.label}
+            >
               <Typography
                 className={classes.checkboxText}
               >
@@ -98,15 +110,21 @@ export const Footer = (props) => {
               </Typography>
             </label>
           </Container>
+
           <Container
             className={classes.checkboxContainer}
           >
-            <input
-              className={classes.checkbox}
-              type={'checkbox'}
-              name={'rodo'}
-            />
-            <label htmlFor={'rodo'}>
+            <Container>
+              <input
+                className={classes.checkbox}
+                type={'checkbox'}
+                id={'rodo'}
+              />
+            </Container>
+            <label
+              htmlFor={'rodo'}
+              className={classes.label}
+            >
               <Typography
                 className={classes.checkboxText}
               >
